@@ -3,7 +3,7 @@ import pickle
 from urllib.parse import urlparse
 
 # Load the trained model
-model = pickle.load(open('phishing.pkl', 'rb'))
+model = pickle.load(open('phishing_model.pkl', 'rb'))
 
 st.set_page_config(page_title="Phishing Detection", layout="centered")
 
